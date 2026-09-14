@@ -1,0 +1,14 @@
+/* Personal content overrides for the ZYYO-inspired layout. */
+html{--main_bg_color:url('./static/img/background-custom.jpg');--back_filter:0px;--back_filter_color:rgba(4,10,24,.34)}
+body{background-image:url('./static/img/background-custom.jpg')!important;background-color:#111827!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+.zyyo-filter{background:rgba(4,10,24,.24)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+#zyyo-loading{display:none!important}
+.zyyo-left{position:sticky;top:0;overflow:hidden;height:100vh}
+.zyyo-left{width:260px}.zyyo-right{width:calc(100% - 260px)}
+.logo{width:90%;position:relative;aspect-ratio:1/1;margin-top:50px;flex-shrink:0;overflow:hidden;border-radius:50%;background:#203654;box-shadow:0 0 0 8px rgba(47,225,181,.08),0 18px 40px rgba(0,0,0,.25)}.logo img{display:block;width:100%;height:100%;object-fit:cover}
+.left-des-item{font-family:'b','Noto Sans SC',sans-serif}.left-des-item .location-icon{width:16px;height:16px;flex:0 0 16px;margin-right:10px}.left-tag-item{color:var(--main_text_color)}
+.iconItem>img{display:block;width:24px;height:24px;object-fit:contain}
+.profile-note{font-size:13px;line-height:1.7;color:var(--item_left_text_color);margin-top:10px}.profile-note strong{color:var(--main_text_color);display:block;font-size:16px;margin-bottom:2px}
+.projectList{gap:0}.projectItem{min-height:100px}.projectItemRight .project-glyph{font:700 22px 'b','Noto Sans SC',sans-serif;color:var(--teal)}
+.tool-grid{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:4px 0 24px}.tool-card{display:grid;place-items:center;width:58px;height:58px;min-height:58px;border:0;border-radius:0;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;transition:transform .25s ease}.tool-card:hover{transform:translateY(-4px) scale(1.06);background:transparent}.tool-card img{display:block;width:54px;height:54px;object-fit:contain}.tool-card b{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:700px){.welcome{font-size:clamp(38px,12vw,65px)}.description{font-size:16px}.projectItem{width:calc(50% - 15px)!important}.zyyo-left{width:100%;height:auto;position:relative;overflow:visible}.logo{width:62%;margin-top:20px}.zyyo-right{width:100%;padding:14px}.zyyo-main{display:block}.left-div{margin-top:10px}.tool-grid{gap:6px}.tool-card{width:52px;height:52px;min-height:52px}.tool-card img{width:50px;height:50px}}
