@@ -8,7 +8,7 @@
 
 页面资料整理自公开主页：
 
-- https://AThousandSplendidSuns.github.io
+- https://athousandsplendidsuns.github.io/Personal-Website/
 - https://github.com/AThousandSplendidSuns
 
 未使用外部图片或第三方字体资源。
